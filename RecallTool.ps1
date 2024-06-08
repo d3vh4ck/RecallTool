@@ -14,7 +14,7 @@
 #     The SQLite DLLs System.Data.SQLite.dll and SQLite.Interop.dll must be in the same directory as this script.
 #
 # Command-line arguments
-#    $dbpath - path to the Recall database file
+#    $recallpath - path to the Recall database file
 #    $search - keyword to search in the Recall database
 #    $exportpath - path to export all data
 #    $createdb - create database tables and populate test data
