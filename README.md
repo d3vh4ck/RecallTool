@@ -23,7 +23,7 @@ Windows Recall is a feature which, when enabled, takes screenhots of the screen 
 
 Text from keyboard and screenshot capture is stored in a local database which can be easily and quickly used to find specific data (such as usernames and passwords, banking information, crypto wallet addresses and passwords, you get the idea) for easy access by the user (and/or potential threat actors).
 
-## How does Recall Tool work
+## How Does Recall Tool Work
 Since Recall stores all data locally with minimal security controls implemented, it simply gives itself access to the Recall files then accesses and exports the database data and images.
 
 In sequence, this script:
@@ -49,6 +49,6 @@ In sequence, this script:
 - .\RecallTool.ps1 -recallpath c:\Users\MyUser\Desktop\recall -search Mypassword01 -exportpath c:\Users\MyUser\Desktop\export
 - .\RecallTool.ps1 -createdb yes
 
-## Things to consider:
+## Things To Consider:
 - This script cares about directory and file structure
 - The ukg.db database file and the ImageStore directory must be in the Recall directory, either natively in the Windows Recall installation or the specified `recallpath` directory
