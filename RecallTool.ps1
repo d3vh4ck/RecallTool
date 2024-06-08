@@ -13,11 +13,13 @@
 # Dependencies:
 #     The SQLite DLLs System.Data.SQLite.dll and SQLite.Interop.dll must be in the same directory as this script.
 #
+# Syntax: .\RecallTool.ps1 [-recallpath PATH] [-search KEYWORD] [-exportpath PATH] [-createdb yes]
+#
 # Command-line arguments
-#    $recallpath - path to the Recall database file
-#    $search - keyword to search in the Recall database
-#    $exportpath - path to export all data
-#    $createdb - create database tables and populate test data
+#    $recallpath - path to the Recall database file (string)
+#    $search - keyword to search in the Recall database (string) (default: password)
+#    $exportpath - path to export all data (string)
+#    $createdb - create database tables and populate test data (options: yes)
 #
 #    Example commane-lines:
 #            .\RecallTool.ps1 -search Mypassword01
