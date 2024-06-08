@@ -27,7 +27,7 @@
 param ($recallpath='', $search='password', $exportpath='', $createdb='')
 
 # Script version
-$version = "0.0.1"
+$version = "1.0.0"
 
 # Global variables
 $global:currentPath = split-path -parent $MyInvocation.MyCommand.Definition
